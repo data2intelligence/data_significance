@@ -1,5 +1,5 @@
-# ridge_significance
-Ridge regression with a fast implementation of statistical significance test.
+# data_significance
+Ridge and Logistic regression with a fast implementation of statistical significance test.
 
 Prerequisite:  
 1, python >= 3.6 developer version. We suggest install anaconda (https://www.anaconda.com) to include all required packages.  
@@ -16,7 +16,7 @@ python -m unittest tests.regression
 
 Usage:  
 Call the regression function in python code as follows:  
-beta, se, zscore, pvalue = ridge_significance.fit(X, Y, alpha, alternative, nrand, verbose). 
+beta, se, zscore, pvalue = data_significance.ridge(X, Y, alpha, alternative, nrand, verbose). 
 
 Input:  
 X: explanatory matrix, numpy matrix in C-contiguous order (last-index varies the fastest).  
