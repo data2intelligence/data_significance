@@ -8,7 +8,7 @@ module = Extension('data_significance', sources = ['main.c', 'ridge.c', 'util.c'
 
 setup(
     name = 'data_significance',
-    version = '1.0',
+    version = '1.1',
     author="Peng Jiang",
     author_email="peng.jiang@nih.gov",
     description = 'A few C functions for significance test in Python',
