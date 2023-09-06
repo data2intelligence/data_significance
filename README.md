@@ -9,10 +9,10 @@ Prerequisite:
 5, gsl-2.6: https://ftp.gnu.org/gnu/gsl  (please don't use other versions, such as 2.7)
 
 Install:  
-python setup.py install  
+python3 setup.py install  
 
 Test:  
-python -m unittest tests.regression  
+python3 -m unittest tests.regression  
 
 Usage:  
 Call the regression function in python code as follows:  
