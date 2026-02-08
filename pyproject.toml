@@ -1,2 +1,6 @@
 [build-system]
 requires = ["numpy", "setuptools", "wheel"]
+
+dependencies = [
+    "numpy>=1.19,<2.0.0",
+]

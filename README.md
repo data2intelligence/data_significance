@@ -3,7 +3,7 @@ Ridge and Logistic regression with a fast implementation of statistical signific
 
 Prerequisite:  
 1, python >= 3.6 developer version. We suggest install anaconda (https://www.anaconda.com) to include all required packages.  
-2, numpy >= 1.19;  
+2, numpy >= 1.19 and < 2.0;  
 3, pandas >= 1.1.4;  
 4, gcc >= 4.2;  
 5, gsl-2.6: https://ftp.gnu.org/gnu/gsl  (please don't use other versions, such as 2.7)
